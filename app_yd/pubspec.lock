@@ -99,6 +99,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  kors_yandexdisk_fs:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "40bdcf388a8c93e62db2279eaffe351f7c3539c1"
+      url: "https://github.com/igorkorsukov/kors_yandexdisk_fs.git"
+    source: git
+    version: "0.0.1"
   lints:
     dependency: transitive
     description:

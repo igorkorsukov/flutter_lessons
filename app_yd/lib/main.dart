@@ -32,9 +32,12 @@ class MyApp extends StatelessWidget {
 
 class MyAppState extends ChangeNotifier {
   MyAppState() {
-    store.init();
+    setup();
+  }
 
-    favorites = store.loadItems();
+  void setup() async {
+    store.init();
+    favorites = await store.loadItems();
   }
 
   var current = WordPair.random();
